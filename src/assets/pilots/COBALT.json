@@ -1,0 +1,81 @@
+{
+    "id": "cobalt-pilot-001",
+    "level": 0,
+    "callsign": "COBALT",
+    "name": "Call Sign: COBALT",
+    "player_name": "Player 1",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "Experienced pilot with specialized training in forest operations and colony security.",
+    "notes": "",
+    "history": "Veteran mercenary pilot with extensive experience in colonial security operations. Recently contracted by Landmark Colonial for the Hercynia assignment.",
+    "quirks": [],
+    "current_hp": 6,
+    "background": "Mercenary",
+    "resistances": [],
+    "mechs": [],
+    "cc_ver": "3.0",
+    "special_equipment": {
+        "SystemMods": []
+    },
+    "combat_history": {
+        "core_uses": 0
+    },
+    "state": {
+        "deployed": []
+    },
+    "lastModified": "2025-01-01T00:00:00.000Z",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "",
+    "lastSync": "",
+    "shareCode": "",
+    "shareCodeExpiry": "",
+    "skills": [
+        {
+            "id": "sk_survive",
+            "rank": 2
+        },
+        {
+            "id": "sk_get_somewhere_quickly",
+            "rank": 2
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_crack_shot",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        2, 0, 2, 0
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [],
+    "licenses": [
+        {
+            "id": "mf_standard_pattern_i_everest",
+            "level": 1
+        }
+    ],
+    "reserves": [],
+    "orgs": [],
+    "bondId": "",
+    "xp": 0,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        ""
+    ],
+    "minorIdeal": "",
+    "clocks": [],
+    "group": "Hercynia Security Team",
+    "portrait": "",
+    "cloud_portrait": "/pilots/COBALT.webp"
+}
