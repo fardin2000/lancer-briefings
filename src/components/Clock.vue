@@ -38,7 +38,7 @@
 				  class="icon transition"
 				  ref="arrow"
 				  icon="chevron-up"
-				  size="large"
+				  size="xlarge"
 				  v-bind:style="{ transform: `rotate(${$props.deg}deg)` }" />
 			</div>
 			<div

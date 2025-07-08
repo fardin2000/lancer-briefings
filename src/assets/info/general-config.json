@@ -2,18 +2,22 @@
   "initialSlug": "001",
   "planetPath": "/planet.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
-  "icon": "/faction-logos/msmc.svg",
+  "defaultTitle": "LANDMARK COLONIAL |",
+  "icon": "/faction-logos/union.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "planet": "Hercynia",
+    "year": "5014u",
+    "system": "Hercynia System",
+    "gate": "Hercynia Gate",
+    "ring": "Outer Rim",
+    "headerTitle": "Landmark Colonial",
+    "headerSubtitle": "Crisis Response Team",
+    "subheaderTitle": "Contract Operations",
+    "subheaderSubtitle": "Evergreen Colony Defense"
   },
-  "pilotSpecialInfo": {}
+  "pilotSpecialInfo": {
+    "note": "No Room For A Wallflower Campaign - Early Spring 5014u",
+    "mission": "Defend Evergreen Colony",
+    "status": "Active Operations"
+  }
 }
