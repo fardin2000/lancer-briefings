@@ -1,2 +1,10 @@
 [
+  {
+    "name": "Campaign Beginning",
+    "type": "Mission",
+    "description": "The countdown to the start of our new Lancer campaign. As the clock fills, preparations are made, pilots are briefed, and the first mission approaches.",
+    "max": 12,
+    "value": 2,
+    "color": "#4CAF50"
+  }
 ]
