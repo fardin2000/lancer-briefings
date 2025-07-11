@@ -15,9 +15,5 @@
     "subheaderTitle": "Operations",
     "subheaderSubtitle": "Evergreen Colony Defense"
   },
-  "pilotSpecialInfo": {
-    "note": "No Room For A Wallflower Campaign - Early Spring 5014u",
-    "mission": "Defend Evergreen Colony",
-    "status": "Active Operations"
-  }
+  "pilotSpecialInfo": {}
 }

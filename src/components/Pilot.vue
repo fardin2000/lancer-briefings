@@ -86,7 +86,7 @@
           <div class="mech-record flex-container-cols" @click="mechModal">
             <div style="width:100%">
               MECHANICAL BLUEPRINT VALID [[{{ randomNumber(14, 22) }}TB]] <br />
-              {{ activeMech.manufacturer.toUpperCase() }}-{{ activeMech.frame_name.toUpperCase() }} :: "{{ activeMech.name.toUpperCase() }}"
+              {{ (activeMech.manufacturer ? activeMech.manufacturer.toUpperCase() : '') }}-{{ (activeMech.frame_name ? activeMech.frame_name.toUpperCase() : '') }} :: "{{ (activeMech.name ? activeMech.name.toUpperCase() : '') }}"
             </div>
             <div>
               <i aria-hidden="true"

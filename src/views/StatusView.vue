@@ -109,12 +109,8 @@ export default {
 		this.setAnimate();
 		this.setClockAnimateDelay();
 	},
-	beforeUpdate() {
-		// initial set
-		this.selectMission(this.missionSlug);
-	},
 	mounted() {
-		// need to set on re-mount
+		// Only select mission if missions is not empty
 		if (this.missions.length > 0) {
 			this.selectMission(this.missions[0].slug);
 		}
@@ -123,7 +119,11 @@ export default {
 		selectMission(slug) {
 			this.missionSlug = slug;
 			let m = this.missions.find(x => x.slug === this.missionSlug);
-			this.missionMarkdown = m.content;
+			if (m && m.content !== undefined) {
+				this.missionMarkdown = m.content;
+			} else {
+				this.missionMarkdown = "";
+			}
 		},
 		setAnimate() {
 			if (this.animate) {
